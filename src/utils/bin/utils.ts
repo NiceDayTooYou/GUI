@@ -110,7 +110,7 @@ export const time = async (args?: string[]): Promise<string> => {
 `;
 };
 
-export const LiYong = (args?: string[]): string => {
+export const banner = (args?: string[]): string => {
   return `
 ██╗     ██╗    ██╗   ██╗ ██████╗ ███╗   ██╗ ██████╗ 
 ██║     ██║    ╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝ 

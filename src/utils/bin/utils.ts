@@ -10,7 +10,7 @@ export const h = async (args: string[]): Promise<string> => {  const commands = 
 +---------------------+      +----------+----------+      +-----------------------+
 |  'projects' / 'p'   |      |  Twitter | 'twitter'|      |         'time'        |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'experiences' / 'e' |      |  Youtube | 'youtube'|      |         'see'         |
+|      'Reading'      |      |  Youtube | 'youtube'|      |         'see'         |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -148,7 +148,7 @@ export const Reading = async (args?: string[]): Promise<string> => {
 
  
 ┌──────────────────────────────────────────────────────────────────────────────────────────────┐
-│ 走自己的路，而不是别人期望你走的路 / Take your own path, not the path others expect you to take │
+│ 走自己的路，而不是别人期望你走的路 / Take your own path, not the path others expect you to take  │
 └──────────────────────────────────────────────────────────────────────────────────────────────┘
 • 为了满足别人的期待，或是世俗意义的成就，你是否割舍了热爱？你是否敢为自己的真实梦想，勇敢一次，不留遗憾地争取一次？人生短暂，如果你还有不甘，还在犹疑，不妨站在终点回望，你或许就能找到答案
 • Have you given up your love in order to meet the expectations of others or achieve secular significance? Do you dare to bravely strive for your true dream once, without leaving any regrets? Life is short, if you are still hesitant or hesitant, you may as well stand at the end and look back, and you may find the answer.
@@ -169,7 +169,7 @@ export const Reading = async (args?: string[]): Promise<string> => {
 
 
 ┌──────────────────────────────────────────────────────────┐
-│ 建构自己的正向小天地 / Build your own positive small world │
+│ 建构自己的正向小天地 / Build your own positive small world  │
 └──────────────────────────────────────────────────────────┘
 • 人是社会性动物，容易被外界影响。所以我们要学会屏蔽。让你感到焦虑的人，总喜欢抱怨、输出负能量的人，喜欢否定你的人，总是消耗你内存能量的人……都要及时屏蔽断离，为自己建构一片舒适的正向天地。不敏感于他人的目光，不生活在别人的论断里，专注走好自己的路，花更多的时间提升自己，才是难得的清醒。
 • People are social animals and are easily influenced by the outside world. So we need to learn to block. People who make you feel anxious, those who always complain and output negative energy, those who like to deny you, and those who always consume your memory energy... all need to block disconnection in a timely manner and build a comfortable positive world for themselves. Not being sensitive to the eyes of others, not living in their judgments, focusing on taking one's own path, and spending more time improving oneself is the rare awakening.

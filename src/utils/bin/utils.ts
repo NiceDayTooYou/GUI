@@ -8,11 +8,11 @@ export const h = async (args: string[]): Promise<string> => {  const commands = 
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-|  'projects' / 'p'   |      |  Twitter | 'twitter'|      |         'time'        |
+|       'page'        |      |  Twitter | 'twitter'|      |         'time'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |      'Reading'      |      |  Youtube | 'youtube'|      |         'see'         |
 +---------------------+      +----------+----------+      +-----------------------+
-|    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
+|       'print'       |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'banner' / 'b'   |      | Bilibili |'bilibili'|      |         'what'        |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -33,11 +33,11 @@ export const help = async (args: string[]): Promise<string> => {
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-|  'projects' / 'p'   |      |  Twitter | 'twitter'|      |         'time'        |
+|       'page'        |      |  Twitter | 'twitter'|      |         'time'        |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'experiences' / 'e' |      |  Youtube | 'youtube'|      |         'see'         |
+|      'Reading'      |      |  Youtube | 'youtube'|      |         'see'         |
 +---------------------+      +----------+----------+      +-----------------------+
-|    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
+|       'print'       |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'banner' / 'b'   |      | Bilibili |'bilibili'|      |         'what'        |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -46,7 +46,7 @@ export const help = async (args: string[]): Promise<string> => {
 |       'help'        |                                   |        'liyong'       |     
 +---------------------+                                   +-----------------------+
 |      'cowsay'       |                                   |        'weather'      |
-+---------------------+                                   +-----------------------+                                                   
++---------------------+                                   +-----------------------+                                                  
 `;
 };
 
@@ -97,6 +97,14 @@ export const liyong = async (args?: string[]): Promise<string> => {
   return `欢迎访问Li Yong的网页 '${args[0]}' thank you for reading.`;
 };
 
+export const print = async (args?: string[]): Promise<string> => {
+  setTimeout(function () {
+    window.open('https://print.liyong.online');
+  }, 1000);
+
+  return `这是一个可以打印的页面 '${args[0]}' thank you for reading.`;
+};
+
 export const time = async (args?: string[]): Promise<string> => {
   return `
 ----------------------------------------------------------------------------------------------------------------------
@@ -107,6 +115,48 @@ export const time = async (args?: string[]): Promise<string> => {
 ███████╗██║ ╚████║╚█████╔╝╚██████╔╝   ██║          ██║   ╚██████╔╝╚██████╔╝██║  ██║       ██║   ██║██║ ╚═╝ ██║███████╗
 ╚══════╝╚═╝  ╚═══╝ ╚════╝  ╚═════╝    ╚═╝          ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═╝       ╚═╝   ╚═╝╚═╝     ╚═╝╚══════╝
 ----------------------------------------------------------------------------------------------------------------------
+`;
+};
+
+export const time = async (args?: string[]): Promise<string> => {
+  return `
+┌─────────────────────┐
+│ Glass style website │
+└─────────────────────┘
+
+这是一个类似玻璃玻璃风格的页面
+
+<a href="https://see.liyong.online/" target="_blank" float="right"><u>点击访问</u></a>
+
+┌──────────────────────────────┐
+│ Different styles of websites │			
+└──────────────────────────────┘
+
+这是另外一个不同风格的页面
+
+<a href="https://past.liyong.online/" target="_blank"><u>点击访问</u></a>
+
+┌─────────────────┐
+│ 我喜欢听的一些歌 │
+└─────────────────┘
+
+<a href="https://music.liyong.online/" target="_blank"><u>点击访问</u></a>
+
+┌──────────┐
+│ Homepage │
+└──────────┘
+
+这是一个主页风格的页面，电脑上显示效果比较好，手机端没有适配
+
+<a href="https://home.liyong.online/" target="_blank"><u>点击访问</u></a></p>
+
+┌────────────────────────────┐
+│ Simulate CMD style website │
+└────────────────────────────┘
+
+这是一个类似CMD终端风格的页面
+
+<a href="https://cmd.liyong.online/" target="_blank"><u>点击访问</u></a></p>
 `;
 };
 

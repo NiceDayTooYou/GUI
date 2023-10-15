@@ -8,7 +8,7 @@ export const h = async (args: string[]): Promise<string> => {  const commands = 
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-|  'projects' / 'p'   |      | Linkedin |'linkedin'|      |     'wolfenstein'     |
+|  'projects' / 'p'   |      |  twitter | 'twitter'|      |     'wolfenstein'     |
 +---------------------+      +----------+----------+      +-----------------------+
 | 'experiences' / 'e' |      |  Spotify | 'spotify'|      |        'cowsay'       |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -41,7 +41,7 @@ export const help = async (args: string[]): Promise<string> => {
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-|  'projects' / 'p'   |      | Linkedin |'linkedin'|      |     'wolfenstein'     |
+|  'projects' / 'p'   |      |  twitter | 'twitter'|      |     'wolfenstein'     |
 +---------------------+      +----------+----------+      +-----------------------+
 | 'experiences' / 'e' |      |  Spotify | 'spotify'|      |        'cowsay'       |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -79,16 +79,16 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  // window.open('https://m4tt72.com', '_self'); // TODO: Add personal url
-  window.open('https://vidg.webflow.io/', '_self'); // TODO: Add personal url
+  // window.open('https://liyong.online', '_self'); // TODO: Add personal url
+  window.open('https://why.liyong.online', '_self'); // TODO: Add personal url
 
   return 'Opening GUI version...';
 };
 
 export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:vgautam2@illinois.edu');
+  window.open('mailto:nicedaytoooyou@gmail.com');
 
-  return 'Opening mailto:vgautam2@illinois.edu...';
+  return 'Opening mailto:nicedaytoooyou@gmail.com';
 };
 
 export const vi = async (args: string[]): Promise<string> => {
@@ -106,7 +106,7 @@ It is safer for your pinky!`;
 
 export const sudo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    window.open('https://www.liyong.online');
   }, 1000);
 
   return `Permission denied: unable to run the command '${args[0]}' as root.`;
@@ -122,56 +122,60 @@ Sorry i drop my smallpack of doritos ▲▼▶◀▼▲▲▼▶▼▲▲▼▶�
 
 export const banner = (args?: string[]): string => {
   return `
-██╗▒▒▒▒▒██╗██╗▒▒▒██╗▒██████╗▒███╗▒▒▒██╗▒██████╗ 
-██║▒▒▒▒▒██║╚██╗▒██╔╝██╔═══██╗████╗▒▒██║██╔════╝ 
-██║▒▒▒▒▒██║▒╚████╔╝▒██║   ██║██╔██╗▒██║██║▒▒███╗
-██║▒▒▒▒▒██║▒▒╚██╔╝▒▒██║   ██║██║╚██╗██║██║▒▒▒██║
-███████╗██║▒▒▒██║▒▒▒╚██████╔╝██║▒╚████║╚██████╔╝
-╚══════╝╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝  v${packageJson.version}
+██╗     ██╗    ██╗   ██╗ ██████╗ ███╗   ██╗ ██████╗ 
+██║     ██║    ╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝ 
+██║     ██║     ╚████╔╝ ██║   ██║██╔██╗ ██║██║  ███╗
+██║     ██║      ╚██╔╝  ██║   ██║██║╚██╗██║██║   ██║
+███████╗██║       ██║   ╚██████╔╝██║ ╚████║╚██████╔╝
+╚══════╝╚═╝       ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ v${packageJson.version}
 
 Welcome to my linux-terminal style website!
 Want to use a regular website? type 'gui' and press enter
 
-Example Commands:
-  - Resume: 'resume' or 'r'
-  - Projects: 'projects' or 'p'
-  - Experiences: 'experience' or 'e'
-  - Github: 'github'
-  - Play Wolfenstein 3D: 'wolfenstein'
+这是一个Linux 终端风格网站！
+想要使用常规网站吗？ 输入“gui”并按 Enter 键
 
+input the command:
+  - type 'help' and press enter, Get more information
+
+输入命令：
+   - 输入“help”并按 Enter 键，获取更多信息
+   
 Contacts:
-  - Email me: 'email'
-  - Linkedin: 'linkedin'
-  - Spotify 🙃: 'spotify'
+  - Email 🌏: 'nicedaytoooyou@gmail.com'
+  - 网易云音乐 ⭐: 'Serendipityniceday'
+  - Bilibili 🙃: 'UID:1375298909'
 
-Type 'help' to see a list of available commands.
+Enjoy your time and good luck.
 `;
 };
 
 export const b = (args?: string[]): string => {
   return `
-██╗▒▒▒▒▒██╗██╗▒▒▒██╗▒██████╗▒███╗▒▒▒██╗▒██████╗ 
-██║▒▒▒▒▒██║╚██╗▒██╔╝██╔═══██╗████╗▒▒██║██╔════╝ 
-██║▒▒▒▒▒██║▒╚████╔╝▒██║   ██║██╔██╗▒██║██║▒▒███╗
-██║▒▒▒▒▒██║▒▒╚██╔╝▒▒██║   ██║██║╚██╗██║██║▒▒▒██║
-███████╗██║▒▒▒██║▒▒▒╚██████╔╝██║▒╚████║╚██████╔╝
-╚══════╝╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝  v${packageJson.version}
+██╗     ██╗    ██╗   ██╗ ██████╗ ███╗   ██╗ ██████╗ 
+██║     ██║    ╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝ 
+██║     ██║     ╚████╔╝ ██║   ██║██╔██╗ ██║██║  ███╗
+██║     ██║      ╚██╔╝  ██║   ██║██║╚██╗██║██║   ██║
+███████╗██║       ██║   ╚██████╔╝██║ ╚████║╚██████╔╝
+╚══════╝╚═╝       ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝  v${packageJson.version}
 
 Welcome to my linux-terminal style website!
 Want to use a regular website? type 'gui' and press enter
 
-Example Commands:
-  - Resume: 'resume' or 'r'
-  - Projects: 'projects' or 'p'
-  - Experiences: 'experience' or 'e'
-  - Github: 'github'
-  - Play Wolfenstein 3D: 'wolfenstein'
+这是一个Linux 终端风格网站！
+想要使用常规网站吗？ 输入“gui”并按 Enter 键
 
+input the command:
+  - type 'help' and press enter, Get more information
+
+输入命令：
+   - 输入“help”并按 Enter 键，获取更多信息
+   
 Contacts:
-  - Email me: 'email'
-  - Linkedin: 'linkedin'
-  - Spotify 🙃: 'spotify'
+  - Email 🌏: 'nicedaytoooyou@gmail.com'
+  - 网易云音乐 ⭐: 'Serendipityniceday'
+  - Bilibili 🙃: 'UID:1375298909'
 
-Type 'help' to see a list of available commands.
+Enjoy your time and good luck.
 `;
 };

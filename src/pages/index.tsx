@@ -49,10 +49,10 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
             <Input inputRef={inputRef} containerRef={containerRef} /></div>
 
           <div style={{ float: "left", width: "25%", textAlign: "right", alignContent: "right" }}>
-            <a href="https://vidg.webflow.io"><button className="action-btn1"><p style={{ fontFamily: "sans-serif", fontSize: "18px" }}>热爱生活，知足常乐</p></button></a>
+            <a href="https://why.liyong.online"><button className="action-btn1"><p style={{ fontFamily: "sans-serif", fontSize: "18px" }}>热爱生活，知足常乐</p></button></a>
           </div>
           {/* <div style={{ float: "left", width: "25%", textAlign: "right" }}>
-            <a href="https://vidg.webflow.io" ><button
+            <a href="https://why.liyong.online" ><button
               style={{
                 alignContent: 'center',
               }}><div

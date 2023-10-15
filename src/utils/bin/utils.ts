@@ -10,7 +10,7 @@ export const h = async (args: string[]): Promise<string> => {  const commands = 
 +---------------------+      +----------+----------+      +-----------------------+
 |  'projects' / 'p'   |      |  twitter | 'twitter'|      |     'wolfenstein'     |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'experiences' / 'e' |      |  Spotify | 'spotify'|      |        'cowsay'       |
+| 'experiences' / 'e' |      |  Youtube | 'youtube'|      |        'cowsay'       |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -41,9 +41,9 @@ export const help = async (args: string[]): Promise<string> => {
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-|  'projects' / 'p'   |      |  twitter | 'twitter'|      |     'wolfenstein'     |
+|  'projects' / 'p'   |      |  Twitter | 'twitter'|      |     'wolfenstein'     |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'experiences' / 'e' |      |  Spotify | 'spotify'|      |        'cowsay'       |
+| 'experiences' / 'e' |      |  Youtube | 'youtube'|      |        'cowsay'       |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+

@@ -1,45 +1,45 @@
 import config from '../../../config.json';
 
 /* export const instagram = async (args: string[]): Promise<string> => {
-  window.open(`https://www.instagram.com/${config.social.instagram}/`);
+  window.open(`https://www.instagram.com/serendipityniceday/`);
 
   return 'Opening instagram...';
 }; */
 
-export const spotify = async (args: string[]): Promise<string> => {
-  window.open(`https://open.spotify.com/user/i_m_here`);
+export const youtube = async (args: string[]): Promise<string> => {
+  window.open(`https://youtube.com/@serendipityniceday`);
 
-  return 'Opening spotify...';
+  return 'Opening youtube...';
 };
 
 export const github = async (args: string[]): Promise<string> => {
-  window.open(`https://github.com/${config.social.github}/`);
+  window.open(`https://github.com/NiceDayTooYou/`);
 
   return 'Opening github...';
 };
 
 export const super_secret = async (args: string[]): Promise<string> => {
-  window.open(`https://www.youtube.com/watch?v=QB7ACr7pUuE`);
+  window.open(`https://mean.liyong.online/`);
 
   return 'sorry...';
 };
 
 export const resume = async (args: string[]): Promise<string> => {
-  window.open(`https://drive.google.com/file/d/1pw7WpxEP9Q7GfkjDZIWHnNVSGnA-h_NO/view?usp=sharing`);
+  window.open(`https://print.liyong.online/`);
 
   return 'Opening resume...';
 };
 
 export const r = async (args: string[]): Promise<string> => {
-  window.open(`https://drive.google.com/file/d/1pw7WpxEP9Q7GfkjDZIWHnNVSGnA-h_NO/view?usp=sharing`);
+  window.open(`https://series.liyong.online/`);
 
   return 'Opening resume...';
 };
 
-export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
+export const twitter = async (args: string[]): Promise<string> => {
+  window.open(`https://twitter.com/NiceDayTooYou/`);
 
-  return 'Opening linkedin...';
+  return 'Opening twitter...';
 };
 
 export const wolfenstein = async (args: string[]): Promise<string> => {

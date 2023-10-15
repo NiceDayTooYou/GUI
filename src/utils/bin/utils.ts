@@ -14,7 +14,7 @@ export const h = async (args: string[]): Promise<string> => {  const commands = 
 +---------------------+      +----------+----------+      +-----------------------+
 |    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
-|    'banner' / 'b'   |      |  Github  | 'github' |      |        'emacs'        |
+|    'banner' / 'b'   |      | Bilibili |'bilibili'|      |        'emacs'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |        'gui'        |                                   |          'vi'         |          
 +---------------------+                                   +-----------------------+
@@ -47,7 +47,7 @@ export const help = async (args: string[]): Promise<string> => {
 +---------------------+      +----------+----------+      +-----------------------+
 |    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
-|    'banner' / 'b'   |      |  Github  | 'github' |      |        'emacs'        |
+|    'banner' / 'b'   |      | Bilibili |'bilibili'|      |        'emacs'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |        'gui'        |                                   |          'vi'         |          
 +---------------------+                                   +-----------------------+
@@ -80,7 +80,7 @@ export const date = async (args: string[]): Promise<string> => {
 
 export const gui = async (args: string[]): Promise<string> => {
   // window.open('https://liyong.online', '_self'); // TODO: Add personal url
-  window.open('https://why.liyong.online', '_self'); // TODO: Add personal url
+  window.open('https://liyong.online', '_self'); // TODO: Add personal url
 
   return 'Opening GUI version...';
 };
@@ -141,10 +141,11 @@ input the command:
 输入命令：
    - 输入“help”并按 Enter 键，获取更多信息
    
-Contacts:
-  - Email 🌏: 'nicedaytoooyou@gmail.com'
-  - 网易云音乐 ⭐: 'Serendipityniceday'
-  - Bilibili 🙃: 'UID:1375298909'
+A few words:
+  - Yesterday is history 🌏: '昨天已成为历史'
+  - Tomorrow is a mystery ⭐: '明天是个谜团'
+  - Today is a gift from heaven 🙃: '而今天是天赐的礼物'
+  - Cherish today like a gift ❤️: '要像珍惜礼物一样珍惜今天'
 
 Enjoy your time and good luck.
 `;
@@ -171,10 +172,11 @@ input the command:
 输入命令：
    - 输入“help”并按 Enter 键，获取更多信息
    
-Contacts:
-  - Email 🌏: 'nicedaytoooyou@gmail.com'
-  - 网易云音乐 ⭐: 'Serendipityniceday'
-  - Bilibili 🙃: 'UID:1375298909'
+A few words:
+  - Yesterday is history 🌏: '昨天已成为历史'
+  - Tomorrow is a mystery ⭐: '明天是个谜团'
+  - Today is a gift from heaven 🙃: '而今天是天赐的礼物'
+  - Cherish today like a gift ❤️: '要像珍惜礼物一样珍惜今天'
 
 Enjoy your time and good luck.
 `;

@@ -12,10 +12,10 @@ export const youtube = async (args: string[]): Promise<string> => {
   return 'Opening youtube...';
 };
 
-export const github = async (args: string[]): Promise<string> => {
-  window.open(`https://github.com/NiceDayTooYou/`);
+export const bilibili = async (args: string[]): Promise<string> => {
+  window.open(`https://space.bilibili.com/1375298909/`);
 
-  return 'Opening github...';
+  return 'Opening bilibili...';
 };
 
 export const super_secret = async (args: string[]): Promise<string> => {

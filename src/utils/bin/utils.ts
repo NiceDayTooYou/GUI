@@ -118,7 +118,7 @@ export const time = async (args?: string[]): Promise<string> => {
 `;
 };
 
-export const time = async (args?: string[]): Promise<string> => {
+export const page = async (args?: string[]): Promise<string> => {
   return `
 ┌─────────────────────┐
 │ Glass style website │
